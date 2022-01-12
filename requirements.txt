@@ -1,0 +1,4 @@
+pandas
+streamlit
+plotly
+pycaret==2.3.4
