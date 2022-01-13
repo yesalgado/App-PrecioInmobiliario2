@@ -16,10 +16,6 @@ model = get_model()
 
 st.title("Valor de venta en USD por pie cuadrado App")
 
-st.markdown("Enter your personal details to get a prediction of your insurance\
-charges. This is a simple app showcasing the abilities of the PyCaret\
-regression module, based on Streamlit. For more information visit the\
- [Simplifying Machine Learning with PyCaret]")
  
 form = st.form("MEDV")
 AGE = form.number_input('Age', min_value=1, max_value=100, value=25)
